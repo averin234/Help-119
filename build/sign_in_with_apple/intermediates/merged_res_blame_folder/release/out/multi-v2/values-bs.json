@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\sign_in_with_apple\\intermediates\\merged_res\\release\\values-bs\\values-bs.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\1304d3bb7a57c1f69d66b380a793c4b5\\transformed\\core-1.6.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "472",
+                        "endColumns": "100",
+                        "endOffsets": "568"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\33f5dc6bbfb34d32c5a1cbade9424c43\\transformed\\browser-1.2.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,159,259,373",
+                        "endColumns": "103,99,113,98",
+                        "endOffsets": "154,254,368,467"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\sign_in_with_apple\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bs\\values-bs.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\1304d3bb7a57c1f69d66b380a793c4b5\\transformed\\core-1.6.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "472",
+                        "endColumns": "100",
+                        "endOffsets": "568"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\33f5dc6bbfb34d32c5a1cbade9424c43\\transformed\\browser-1.2.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,159,259,373",
+                        "endColumns": "103,99,113,98",
+                        "endOffsets": "154,254,368,467"
+                    }
+                }
+            ]
+        }
+    ]
+}

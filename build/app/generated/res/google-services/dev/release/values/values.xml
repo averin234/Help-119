@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">293071833413-8nem9bq8q3o20n8k74v216n8hp9l14ek.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://devkreki-80095-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">293071833413</string>
+    <string name="google_api_key" translatable="false">AIzaSyCoou9q7_TiNzTI0yDYdte-moEjF-o5gR8</string>
+    <string name="google_app_id" translatable="false">1:293071833413:android:00754936991f78472e162c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCoou9q7_TiNzTI0yDYdte-moEjF-o5gR8</string>
+    <string name="google_storage_bucket" translatable="false">devkreki-80095.appspot.com</string>
+    <string name="project_id" translatable="false">devkreki-80095</string>
+</resources>

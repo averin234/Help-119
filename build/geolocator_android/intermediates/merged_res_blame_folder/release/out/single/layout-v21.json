@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\geolocator_android\\intermediates\\merged_res\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\30c436b8113805c0d6ab05245ad612a4\\transformed\\core-1.9.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\geolocator_android\\intermediates\\merged_res\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\30c436b8113805c0d6ab05245ad612a4\\transformed\\core-1.9.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\geolocator_android\\intermediates\\merged_res\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\30c436b8113805c0d6ab05245ad612a4\\transformed\\core-1.9.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\geolocator_android\\intermediates\\merged_res\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\30c436b8113805c0d6ab05245ad612a4\\transformed\\core-1.9.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

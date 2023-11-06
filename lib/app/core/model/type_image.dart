@@ -1,0 +1,5 @@
+enum TypeImage{
+  PROFILE,
+  CITIZEN,
+  CERTIFICATE
+}

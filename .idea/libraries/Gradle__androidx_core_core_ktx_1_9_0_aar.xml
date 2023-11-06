@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core-ktx:1.9.0@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/1b59844a4d08db94deeed837b3d0b9df/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/1b59844a4d08db94deeed837b3d0b9df/transformed/jetified-core-ktx-1.9.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

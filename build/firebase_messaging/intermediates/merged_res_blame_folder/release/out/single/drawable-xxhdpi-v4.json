@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\255262451f7be9b71007bf0949383fb8\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\255262451f7be9b71007bf0949383fb8\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\255262451f7be9b71007bf0949383fb8\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\255262451f7be9b71007bf0949383fb8\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\255262451f7be9b71007bf0949383fb8\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\255262451f7be9b71007bf0949383fb8\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    }
+]

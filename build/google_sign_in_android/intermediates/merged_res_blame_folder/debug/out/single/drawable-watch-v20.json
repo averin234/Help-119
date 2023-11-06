@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\New-Repo-Kreki-Help-119\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\47f0a4e364569bf5b8e966d3ff224729\\transformed\\jetified-play-services-auth-20.7.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\New-Repo-Kreki-Help-119\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\47f0a4e364569bf5b8e966d3ff224729\\transformed\\jetified-play-services-auth-20.7.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\New-Repo-Kreki-Help-119\\build\\google_sign_in_android\\intermediates\\merged_res\\debug\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\47f0a4e364569bf5b8e966d3ff224729\\transformed\\jetified-play-services-auth-20.7.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    }
+]

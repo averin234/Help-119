@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.play:app-update-ktx:2.1.0@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/1488ee1302040bd378ea6f622effeb4c/transformed/jetified-app-update-ktx-2.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/1488ee1302040bd378ea6f622effeb4c/transformed/jetified-app-update-ktx-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

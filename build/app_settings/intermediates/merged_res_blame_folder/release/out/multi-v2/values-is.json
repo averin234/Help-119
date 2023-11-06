@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\app_settings\\intermediates\\merged_res\\release\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\1304d3bb7a57c1f69d66b380a793c4b5\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\app_settings\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\1304d3bb7a57c1f69d66b380a793c4b5\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

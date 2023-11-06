@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.browser:browser:1.5.0@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/6887c5bb9e9509e713925d10f1ab67ad/transformed/browser-1.5.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/6887c5bb9e9509e713925d10f1ab67ad/transformed/browser-1.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

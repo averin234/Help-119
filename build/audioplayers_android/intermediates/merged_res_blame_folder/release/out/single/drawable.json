@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\audioplayers_android\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\64885accf8c5b22ddf58b6274ed98220\\transformed\\core-1.8.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\audioplayers_android\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\64885accf8c5b22ddf58b6274ed98220\\transformed\\core-1.8.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\audioplayers_android\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\64885accf8c5b22ddf58b6274ed98220\\transformed\\core-1.8.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\audioplayers_android\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\64885accf8c5b22ddf58b6274ed98220\\transformed\\core-1.8.0\\res\\drawable\\notification_icon_background.xml"
+    }
+]

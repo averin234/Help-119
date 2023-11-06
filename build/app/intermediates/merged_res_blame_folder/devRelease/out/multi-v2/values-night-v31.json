@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\app\\intermediates\\incremental\\mergeDevReleaseResources\\merged.dir\\values-night-v31\\values-night-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "from": {
+                        "startLines": "3,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,1062",
+                        "endLines": "10,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "704,1228"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,581",
+                        "endLines": "9,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "576,745"
+                    }
+                }
+            ]
+        }
+    ]
+}

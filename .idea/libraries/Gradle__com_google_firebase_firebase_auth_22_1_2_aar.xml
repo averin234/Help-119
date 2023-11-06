@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-auth:22.1.2@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/bd473b45556247b0ac8a96a241f03800/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/bd473b45556247b0ac8a96a241f03800/transformed/jetified-firebase-auth-22.1.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

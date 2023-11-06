@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core:1.8.0@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/64885accf8c5b22ddf58b6274ed98220/transformed/core-1.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/64885accf8c5b22ddf58b6274ed98220/transformed/core-1.8.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_core\\intermediates\\merged_res\\release\\values-ru\\values-ru.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\1304d3bb7a57c1f69d66b380a793c4b5\\transformed\\core-1.6.0\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "212",
+                        "endColumns": "100",
+                        "endOffsets": "308"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\2fb698e19567c92aa6e00fe83a22855b\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "152",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "156",
+                        "endOffsets": "207"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\irwan\\Documents\\AplikasiFinalAndroid\\kreki13092023\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ru\\values-ru.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\1304d3bb7a57c1f69d66b380a793c4b5\\transformed\\core-1.6.0\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "212",
+                        "endColumns": "100",
+                        "endOffsets": "308"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\irwan\\.gradle\\caches\\transforms-3\\2fb698e19567c92aa6e00fe83a22855b\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "152",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "156",
+                        "endOffsets": "207"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.play:app-update:2.1.0@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/4a427ef68d7b6d9aa31234d04c7e87fd/transformed/jetified-app-update-2.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Project Mintek/project mobile/apps-mobile-sirs/caches/transforms-3/4a427ef68d7b6d9aa31234d04c7e87fd/transformed/jetified-app-update-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
