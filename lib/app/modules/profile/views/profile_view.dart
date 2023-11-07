@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:app_settings/app_settings.dart';
+// import 'package:app_settings/app_settings.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -124,19 +124,19 @@ class ProfileView extends BaseView<ProfileController> {
         title: 'Edit Password', subTitle: 'Ubah pengaturan kata sandi',
       ),
 
-      SettingItemWidget(
-        onTap: (){
-          AppSettings.openNotificationSettings(
-            callback: (){
-              logger.d("aap, open setting detected");
-            }
-          );
-        },
-          trailing: const Icon(Icons.chevron_right_rounded),
-          leading: const Icon(Icons.edit_notifications_rounded, color: AppColors.primary400,),
-          title: 'Notification',
-        subTitle: 'Ubah pengaturan notifikasi',
-      )
+      // SettingItemWidget(
+      //   onTap: (){
+      //     AppSettings.openNotificationSettings(
+      //       callback: (){
+      //         logger.d("aap, open setting detected");
+      //       }
+      //     );
+      //   },
+      //     trailing: const Icon(Icons.chevron_right_rounded),
+      //     leading: const Icon(Icons.edit_notifications_rounded, color: AppColors.primary400,),
+      //     title: 'Notification',
+      //   subTitle: 'Ubah pengaturan notifikasi',
+      // )
     ];
   }
 
