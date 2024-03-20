@@ -82,4 +82,15 @@ class AuthRepositoryImpl extends AuthRepository {
     return remoteData.updatePassword(password, userData.id.toString());
   }
 
+  @override
+  Future<UserMobileEntity> getLoginApple(String idToken) async{
+    var response = await remoteData.loadGoogleSignIn(idToken);
+    var data = response.data;
+    data?.code = response.code;
+    var userMap = json.encode(response.data);
+    preferenceManager.setString(PreferenceManager.keyUser, userMap);
+    preferenceManager.setString(PreferenceManager.keyToken, data?.accessToken?? '');
+
+    return data ?? UserMobileEntity();
+  }
 }

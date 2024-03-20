@@ -1,5 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="main_prod" type="FlutterRunConfigurationType" factoryName="Flutter" editBeforeRun="true">
+    <option name="envs">
+      <entry key="prod" value="" />
+    </option>
     <option name="filePath" value="$PROJECT_DIR$/lib/main_prod.dart" />
     <method v="2" />
   </configuration>

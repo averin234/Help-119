@@ -40,8 +40,7 @@ class SignUpController extends BaseController {
   }
 
   signUpByEmail() async{
-    // showLoading();
-
+    showLoading();
     if(passController.text != rePassController.text){
       hideLoading();
       showErrorMessage("confirm password must be same");

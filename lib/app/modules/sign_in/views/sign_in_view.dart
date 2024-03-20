@@ -75,10 +75,18 @@ class SignInView extends BaseView<SignInController> {
         AppValues.margin.toInt().height,
         Text('OR', style: primaryTextStyle(),).center(),
         8.height,
-        socialLogin(FontAwesome.google, label: 'Sign in With Google', bgColor: AppColors.error500),
-        SizedBox(
-          height: 70,
-        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+          socialLogin(FontAwesome.google, label: 'Sign in With Google', bgColor: AppColors.error500),
+          SizedBox(
+            width: 10,
+          ),
+          socialLoginapple(FontAwesome.google, label: 'Sign in With Apple', bgColor: Colors.black),
+
+        ],),
+        SizedBox(height: 20,),
         Text('Support by', textAlign: TextAlign.center),
         Row(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -109,13 +117,12 @@ class SignInView extends BaseView<SignInController> {
     ).paddingAll(AppValues.padding);
 
   }
-
   Widget socialLogin(IconData iconData, {String? label, Color? bgColor}){
-    return Container(
+    return Expanded(child:
+        Container(
       decoration: boxDecorationRoundedWithShadow(
           AppValues.largePadding.toInt(),
           backgroundColor: bgColor ?? AppColors.colorPrimary),
-      width: Get.width,
       padding: const EdgeInsets.all(12),
       alignment: Alignment.center,
       child: IconTextWidget(
@@ -124,7 +131,25 @@ class SignInView extends BaseView<SignInController> {
         color: Colors.white,
         size: AppValues.iconSize_20,
       ).center(),
-    ).onTap((){
+    )).onTap((){
+      controller.signInGoogle();
+    });
+  }
+  Widget socialLoginapple(IconData iconData, {String? label, Color? bgColor}){
+    return Expanded(child:
+      Container(
+      decoration: boxDecorationRoundedWithShadow(
+          AppValues.largePadding.toInt(),
+          backgroundColor: bgColor ?? AppColors.colorPrimary),
+      padding: const EdgeInsets.all(12),
+      alignment: Alignment.center,
+      child: IconTextWidget(
+        icon: Icons.apple,
+        value: label ?? 'Sign in social',
+        color: Colors.white,
+        size: AppValues.iconSize_22,
+      ).center(),
+    )).onTap((){
       controller.signInGoogle();
     });
   }

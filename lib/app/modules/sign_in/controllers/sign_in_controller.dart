@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:kreki119/app/core/base/base_controller.dart';
@@ -77,6 +78,28 @@ class SignInController extends BaseController {
       } else {
         showErrorMessage('Failed login: Error code ${val.code}');
       }
+    }
+  }
+
+  Future<void> signInApple() async {
+    if (currentUser?.loggedIn == true) {
+      await signInWithApple();
+    }
+    showLoading();
+    try {
+      final UserCredential userCredential = await appleSignIn();
+      final User? user = userCredential.user;
+      if (user != null) {
+        var tokenResult = await user.getIdTokenResult();
+        await callDataService(authRepo.getLoginApple(tokenResult.token.toString()),
+            onSuccess: handleLogin);
+      }
+      hideLoading();
+      
+    } catch (error) {
+      hideLoading();
+      showErrorMessage(error.toString());
+      print(error.toString());
     }
   }
 

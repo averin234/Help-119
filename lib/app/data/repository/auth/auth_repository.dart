@@ -17,6 +17,7 @@ abstract class AuthRepository{
   Future<UserMobileEntity> getLogin(FormLogin form);
   Future<BaseResponse> getRegister(FormRegister form);
   Future<UserMobileEntity> getLoginGoogle(String idToken);
+  Future<UserMobileEntity> getLoginApple(String idToken);
   Future<BaseResponse> updateProfile(FormUpdateProfile form);
   Future<BaseResponse> postForgotPass(FormForgotPass form);
   Future<BaseResponse> updatePassword(String password);

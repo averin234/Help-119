@@ -162,13 +162,19 @@ class SignUpVerificationController extends BaseController {
   }
 
   _handleVerification(BaseResponse value) async {
-    if (value.code == null) return;
+    if (value.code == null) {
+      showErrorMessage("Failed: Response code is null");
+      return;
+    }
 
-    if (value.code! >= 200 && value.code! < 300) {
-      var user = await getUserMobile();
-      loadUserMobile(user.id.toString())
-          .then((value) => Get.offAllNamed(Routes.MAIN, arguments: true));
-      // mainController.loadProfile().then((value) => Get.offAllNamed(Routes.MAIN));
+    if (value.code! >= 200) {
+      try {
+        var user = await getUserMobile();
+        await mainController.loadProfile();
+        Get.toNamed(Routes.SPLASH);
+      } catch (e) {
+        showErrorMessage("Failed to load user data: $e");
+      }
     } else {
       showErrorMessage("Failed: ${value.error}");
     }
