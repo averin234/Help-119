@@ -3,7 +3,6 @@ import 'dart:math';
 
 import 'package:crypto/crypto.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../../../core/values/app_values.dart';
 import 'auth_util.dart';
@@ -23,26 +22,26 @@ String sha256ofString(String input) {
   return digest.toString();
 }
 
-Future<UserCredential> appleSignIn() async {
-  final rawNonce = generateNonce();
-  final nonce = sha256ofString(rawNonce);
+// Future<UserCredential> appleSignIn() async {
+//   final rawNonce = generateNonce();
+//   final nonce = sha256ofString(rawNonce);
+//
+//   final appleCredential = await SignInWithApple.getAppleIDCredential(
+//     scopes: [
+//       AppleIDAuthorizationScopes.email,
+//       AppleIDAuthorizationScopes.fullName,
+//     ],
+//     nonce: nonce,
+//   );
+//
+//   final oauthCredential = OAuthProvider("apple.com").credential(
+//     idToken: appleCredential.identityToken,
+//     rawNonce: rawNonce,
+//   );
+//
+//
+//   return await FirebaseAuth.instance.signInWithCredential(oauthCredential);
+// }
 
-  final appleCredential = await SignInWithApple.getAppleIDCredential(
-    scopes: [
-      AppleIDAuthorizationScopes.email,
-      AppleIDAuthorizationScopes.fullName,
-    ],
-    nonce: nonce,
-  );
-
-  final oauthCredential = OAuthProvider("apple.com").credential(
-    idToken: appleCredential.identityToken,
-    rawNonce: rawNonce,
-  );
-
-
-  return await FirebaseAuth.instance.signInWithCredential(oauthCredential);
-}
-
-Future<User?> signInWithApple() =>
-    signInOrCreateAccount(appleSignIn);
+// Future<User?> signInWithApple() =>
+//     signInOrCreateAccount(appleSignIn);

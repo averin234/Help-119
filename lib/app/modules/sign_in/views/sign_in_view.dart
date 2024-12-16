@@ -64,6 +64,7 @@ class SignInView extends BaseView<SignInController> {
           controller.signInEmail();
         }),
         8.height,
+        SizedBox(height: 10,),
         RichTextWidget(list: [
           TextSpan(text: "Don't have an account? " , style: secondaryTextStyle()),
           TextSpan(
@@ -73,19 +74,19 @@ class SignInView extends BaseView<SignInController> {
           ),
         ]).center(),
         AppValues.margin.toInt().height,
-        Text('OR', style: primaryTextStyle(),).center(),
+        // Text('OR', style: primaryTextStyle(),).center(),
         8.height,
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-          socialLogin(FontAwesome.google, label: 'Sign in With Google', bgColor: AppColors.error500),
-          SizedBox(
-            width: 10,
-          ),
-          socialLoginapple(FontAwesome.google, label: 'Sign in With Apple', bgColor: Colors.black),
-
-        ],),
+        // Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   crossAxisAlignment: CrossAxisAlignment.center,
+        //   children: [
+        //   socialLogin(FontAwesome.google, label: 'Sign in With Google', bgColor: AppColors.error500),
+        //   SizedBox(
+        //     width: 10,
+        //   ),
+        //   socialLoginapple(FontAwesome.google, label: 'Sign in With Apple', bgColor: Colors.black),
+        //
+        // ],),
         SizedBox(height: 20,),
         Text('Support by', textAlign: TextAlign.center),
         Row(

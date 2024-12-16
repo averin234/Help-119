@@ -81,27 +81,27 @@ class SignInController extends BaseController {
     }
   }
 
-  Future<void> signInApple() async {
-    if (currentUser?.loggedIn == true) {
-      await signInWithApple();
-    }
-    showLoading();
-    try {
-      final UserCredential userCredential = await appleSignIn();
-      final User? user = userCredential.user;
-      if (user != null) {
-        var tokenResult = await user.getIdTokenResult();
-        await callDataService(authRepo.getLoginApple(tokenResult.token.toString()),
-            onSuccess: handleLogin);
-      }
-      hideLoading();
-      
-    } catch (error) {
-      hideLoading();
-      showErrorMessage(error.toString());
-      print(error.toString());
-    }
-  }
+  // Future<void> signInApple() async {
+  //   if (currentUser?.loggedIn == true) {
+  //     await signInWithApple();
+  //   }
+  //   showLoading();
+  //   try {
+  //     final UserCredential userCredential = await appleSignIn();
+  //     final User? user = userCredential.user;
+  //     if (user != null) {
+  //       var tokenResult = await user.getIdTokenResult();
+  //       await callDataService(authRepo.getLoginApple(tokenResult.token.toString()),
+  //           onSuccess: handleLogin);
+  //     }
+  //     hideLoading();
+  //
+  //   } catch (error) {
+  //     hideLoading();
+  //     showErrorMessage(error.toString());
+  //     print(error.toString());
+  //   }
+  // }
 
   signInGoogle()async{
     if(currentUser?.loggedIn==true){

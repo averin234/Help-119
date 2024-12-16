@@ -1,7 +1,7 @@
 name: kreki119
 description: Kreki app for 119
 publish_to: none
-version: 1.0.3+1
+version: 1.0.6+6
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
@@ -32,7 +32,6 @@ dependencies:
   firebase_core: ^2.4.0
   firebase_auth: ^4.2.1
   the_apple_sign_in: ^1.1.1
-  sign_in_with_apple: ^5.0.0
   package_info: ^2.0.2
   provider: ^6.0.0
   in_app_update: ^4.2.1
